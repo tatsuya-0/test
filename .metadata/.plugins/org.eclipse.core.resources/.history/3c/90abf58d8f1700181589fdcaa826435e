@@ -1,0 +1,6 @@
+
+public class Prson {
+	public String name =null;
+	public int age = 0;
+
+}
