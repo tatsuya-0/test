@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="リソース名 &apos;HelloJSP/WebContent/insex.jsp&apos; を &apos;index.jsp&apos; に変更します" description="リソース &apos;insex.jsp&apos; の名前変更" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/insex.jsp" name="index.jsp" stamp="1519790795273" updateReferences="true"/>
+</session>

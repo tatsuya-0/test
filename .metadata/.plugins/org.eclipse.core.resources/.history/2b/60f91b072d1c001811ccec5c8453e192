@@ -1,0 +1,27 @@
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import com.mysql.jdbc.connection;
+
+public class DBConnector{
+	private static String driverName="com.mysql.jdbc.Driver";
+	private static String url="jdbc:mysql://localhost/testdb?autoReconnect=true&useSSL=false";
+	private static String user="root";
+	private static String password="mesql";
+
+	public Connection getConnection();
+	Connection con =null;
+
+	try{
+		Class.forName(driverName);
+		con=(connection)DrivaetrName.getConnection
+	}catch(ClassNotFoundException e){
+		e.printStackTrace();
+	}catch(SQLException e){
+		e.printStackTrace();
+	}
+	return con;
+
+}
+
+
+
