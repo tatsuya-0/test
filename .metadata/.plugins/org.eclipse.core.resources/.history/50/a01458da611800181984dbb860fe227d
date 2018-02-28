@@ -1,0 +1,6 @@
+
+public class SmartPhone  extends Mp3Player{
+	public static void main(String[]args){
+	}
+
+}
