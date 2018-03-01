@@ -7,27 +7,14 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%@page isErrorPage="true" %>
-<p>数値を入力してください。</p>
-<button onlick="history.back()"></button>
-<br>
-<p><%=exception %></p>
-<table border=1>
-<tr>
-<td><strong>エラーメッセージ</strong>
-<td><%=exception.getMessage() %></td>
-<tr>
-<td><strong>例外を文字列に変換</strong>
-<td><%=exception.toString() %></td>
-</tr>
-<tr>
-<td><strong>スタートレック</strong></td>
-<td>
+<%@page errorPage="total-error.jsp"%>
 <%
-exception.printStackTrace(new java.io.PrintWriter(out));
+request.setCharacterEncoding("UTF-8");
+int price=Integer.parseInt(request.getParameter("price"));
+int count=Integer.parseInt(request.getParameter("count"));
+int delivery=Integer.parseInt(request.getParameter("delivery"));
 %>
-</td></tr>
-
-</table>
+<%=price %>円x<%=count %>個+送料<%=delivery %>円=<a></a>
+<%=price*count+delivery %>円
 </body>
 </html>
