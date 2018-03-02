@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="&apos;struts.sql&apos; を &apos;sql&apos; に移動" description="&apos;struts.sql&apos; を &apos;sql&apos; に移動" destination="sql" element1="struts.sql" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1519976142838" updateReferences="true"/>
+</session>

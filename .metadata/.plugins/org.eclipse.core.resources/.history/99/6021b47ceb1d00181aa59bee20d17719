@@ -1,0 +1,5 @@
+package cmom.internousdev.login.util;
+
+public class DBConnector {
+
+}
