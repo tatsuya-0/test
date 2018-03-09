@@ -1,0 +1,3 @@
+document.write("<MAP NAME=\"map_730181081\"> <AREA COORDS=\"0,0,300,300\" HREF=\"https://dlv.itmedia.jp/rd/v1/j/on/c/chsm=88,d8a1ee98/2075501449/ITR3/222976/300838183.510195762.620144254/730181081/107435/2075501449:ITR3:*/l/sp=0;/g/B:aHR0cHM6Ly9pdG1lZGlhLnNtYXJ0c2VtaW5hci5qcC9wdWJsaWMvYXBwbGljYXRpb24vYWRkLzE3MjE_c3NscD0xMTU3XzEx\" TARGET=\"_top\" ALT=\"\" rel=\"nofollow\"> </MAP> \n");
+   document.write('<IMG SRC="https://img.itmedia.jp/so/images/sa/b/286/293787/300838183/rec2.jpg" WIDTH="300" HEIGHT="300" usemap="#map_730181081" BORDER="0" ALT="">'); 
+document.write(" <NOSCRIPT>  <IMG SRC=\"https://img.itmedia.jp/so/images/sa/b/286/293787/300838183/rec2.jpg\" WIDTH=\"300\" HEIGHT=\"300\" usemap=\"#map_730181081\" BORDER=\"0\" ALT=\"\">  </NOSCRIPT> \n");
