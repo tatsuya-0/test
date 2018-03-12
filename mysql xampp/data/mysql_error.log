@@ -1,0 +1,579 @@
+2015-11-10 15:26:56 10fc InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2015-11-10 15:26:56 4348 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2015-11-10 15:26:56 4348 [Note] InnoDB: The InnoDB memory heap is disabled
+2015-11-10 15:26:56 4348 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2015-11-10 15:26:56 4348 [Note] InnoDB: Memory barrier is not used
+2015-11-10 15:26:56 4348 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2015-11-10 15:26:56 4348 [Note] InnoDB: Not using CPU crc32 instructions
+2015-11-10 15:26:56 4348 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2015-11-10 15:26:56 4348 [Note] InnoDB: Completed initialization of buffer pool
+2015-11-10 15:26:56 4348 [Note] InnoDB: Highest supported file format is Barracuda.
+2015-11-10 15:26:57 4348 [Note] InnoDB: 128 rollback segment(s) are active.
+2015-11-10 15:26:57 4348 [Note] InnoDB: Waiting for purge to start
+2015-11-10 15:26:57 4348 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.26-74.0 started; log sequence number 1835027
+2015-11-10 15:26:57 6140 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2015-11-10 15:26:57 4348 [Note] Plugin 'FEEDBACK' is disabled.
+2015-11-10 15:26:57 4348 [Note] Server socket created on IP: '::'.
+2015-11-10 15:26:57 4348 [Note] Event Scheduler: Loaded 0 events
+2015-11-10 15:26:57 4348 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.8-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2015-11-10 15:27:11 5152 [Note] C:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+
+2015-11-10 15:27:11 5152 [Note] Event Scheduler: Purging the queue. 0 events
+2015-11-10 15:27:11 5732 [Note] InnoDB: FTS optimize thread exiting.
+2015-11-10 15:27:11 5152 [Note] InnoDB: Starting shutdown...
+2015-11-10 15:27:13 5152 [Note] InnoDB: Shutdown completed; log sequence number 1835037
+2015-11-10 15:27:13 5152 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+2017-12-17 17:45:18 2054 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2017-12-17 17:45:18 8276 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2017-12-17 17:45:18 8276 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-12-17 17:45:18 8276 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-12-17 17:45:18 8276 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-12-17 17:45:18 8276 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-12-17 17:45:18 8276 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-12-17 17:45:18 8276 [Note] InnoDB: Using generic crc32 instructions
+2017-12-17 17:45:18 8276 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2017-12-17 17:45:18 8276 [Note] InnoDB: Completed initialization of buffer pool
+2017-12-17 17:45:18 8276 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-12-17 17:45:18 8276 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-12-17 17:45:18 8276 [Note] InnoDB: Waiting for purge to start
+2017-12-17 17:45:18 8276 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 1835037
+2017-12-17 17:45:18 8428 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2017-12-17 17:45:18 8276 [Note] Plugin 'FEEDBACK' is disabled.
+2017-12-17 17:45:18 8276 [Note] Server socket created on IP: '::'.
+2017-12-17 17:45:19 8276 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2017-12-17 18:01:59 1e3c InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2017-12-17 18:01:59 7740 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2017-12-17 18:01:59 7740 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-12-17 18:01:59 7740 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-12-17 18:01:59 7740 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-12-17 18:01:59 7740 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-12-17 18:01:59 7740 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-12-17 18:01:59 7740 [Note] InnoDB: Using generic crc32 instructions
+2017-12-17 18:01:59 7740 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2017-12-17 18:01:59 7740 [Note] InnoDB: Completed initialization of buffer pool
+2017-12-17 18:01:59 7740 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-12-17 18:01:59 7740 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 1835047 in the ib_logfiles!
+2017-12-17 18:01:59 7740 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2017-12-17 18:02:00 7740 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-12-17 18:02:00 7740 [Note] InnoDB: Waiting for purge to start
+2017-12-17 18:02:01 7740 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 1835047
+2017-12-17 18:02:01 8832 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2017-12-17 18:02:01 7740 [Note] Plugin 'FEEDBACK' is disabled.
+2017-12-17 18:02:01 7740 [Note] Server socket created on IP: '::'.
+2017-12-17 18:02:01 7740 [ERROR] mysqld.exe: Table '.\mysql\user' is marked as crashed and should be repaired
+2017-12-17 18:02:01 7740 [Warning] Checking table:   '.\mysql\user'
+2017-12-17 18:02:01 7740 [ERROR] mysql.user: 1 client is using or hasn't closed the table properly
+2017-12-17 18:02:01 7740 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2017-12-18 11:25:34 131c InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2017-12-18 11:25:34 4892 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2017-12-18 11:25:34 4892 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-12-18 11:25:34 4892 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-12-18 11:25:34 4892 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-12-18 11:25:34 4892 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-12-18 11:25:34 4892 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-12-18 11:25:34 4892 [Note] InnoDB: Using generic crc32 instructions
+2017-12-18 11:25:34 4892 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2017-12-18 11:25:34 4892 [Note] InnoDB: Completed initialization of buffer pool
+2017-12-18 11:25:34 4892 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-12-18 11:25:34 4892 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 1835057 in the ib_logfiles!
+2017-12-18 11:25:34 4892 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2017-12-18 11:25:38 4892 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-12-18 11:25:38 4892 [Note] InnoDB: Waiting for purge to start
+2017-12-18 11:25:38 4892 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 1835057
+2017-12-18 11:25:39 5492 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2017-12-18 11:25:39 4892 [Note] Plugin 'FEEDBACK' is disabled.
+2017-12-18 11:25:39 4892 [Note] Server socket created on IP: '::'.
+2017-12-18 11:25:39 4892 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2017-12-18 12:49:26 1efc InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2017-12-18 12:49:26 7932 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2017-12-18 12:49:26 7932 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-12-18 12:49:26 7932 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-12-18 12:49:26 7932 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-12-18 12:49:26 7932 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-12-18 12:49:26 7932 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-12-18 12:49:26 7932 [Note] InnoDB: Using generic crc32 instructions
+2017-12-18 12:49:26 7932 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2017-12-18 12:49:26 7932 [Note] InnoDB: Completed initialization of buffer pool
+2017-12-18 12:49:26 7932 [ERROR] InnoDB: C:\xampp\mysql\data\ibdata1 can't be opened in read-write mode
+2017-12-18 12:49:26 7932 [ERROR] InnoDB: The system tablespace must be writable!
+2017-12-18 12:49:26 7932 [ERROR] Plugin 'InnoDB' init function returned error.
+2017-12-18 12:49:26 7932 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2017-12-18 12:49:26 7932 [Note] Plugin 'FEEDBACK' is disabled.
+2017-12-18 12:49:26 7932 [ERROR] Unknown/unsupported storage engine: InnoDB
+2017-12-18 12:49:26 7932 [ERROR] Aborting
+
+2017-12-20 19:10:47 1388 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2017-12-20 19:10:47 5000 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2017-12-20 19:10:47 5000 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-12-20 19:10:47 5000 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-12-20 19:10:47 5000 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-12-20 19:10:47 5000 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-12-20 19:10:47 5000 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-12-20 19:10:47 5000 [Note] InnoDB: Using generic crc32 instructions
+2017-12-20 19:10:47 5000 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2017-12-20 19:10:47 5000 [Note] InnoDB: Completed initialization of buffer pool
+2017-12-20 19:10:48 5000 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-12-20 19:10:48 5000 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 1836219 in the ib_logfiles!
+2017-12-20 19:10:48 5000 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2017-12-20 19:10:48 5000 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-12-20 19:10:48 5000 [Note] InnoDB: Waiting for purge to start
+2017-12-20 19:10:48 5000 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 1836219
+2017-12-20 19:10:48 2532 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2017-12-20 19:10:48 5000 [Note] Plugin 'FEEDBACK' is disabled.
+2017-12-20 19:10:48 5000 [Note] Server socket created on IP: '::'.
+2017-12-20 19:10:49 5000 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2017-12-20 19:25:49 1256 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-20 19:25:49 1256 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-20 20:09:08 3740 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-20 20:09:08 3740 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-20 20:34:55 3740 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-20 20:34:55 3740 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-20 20:35:48 3740 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-20 20:35:48 3740 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-20 20:51:13 580 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-20 20:51:13 580 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-20 20:55:55 5576 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-20 20:55:55 5576 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-20 20:57:13 5576 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-20 20:57:13 5576 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-20 20:57:21 1364 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2017-12-20 20:57:21 4964 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2017-12-20 20:57:21 4964 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-12-20 20:57:21 4964 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-12-20 20:57:21 4964 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-12-20 20:57:21 4964 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-12-20 20:57:21 4964 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-12-20 20:57:21 4964 [Note] InnoDB: Using generic crc32 instructions
+2017-12-20 20:57:21 4964 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2017-12-20 20:57:21 4964 [Note] InnoDB: Completed initialization of buffer pool
+2017-12-20 20:57:21 4964 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-12-20 20:57:21 4964 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 1962801 in the ib_logfiles!
+2017-12-20 20:57:21 4964 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2017-12-20 20:57:21 4964 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-12-20 20:57:21 4964 [Note] InnoDB: Waiting for purge to start
+2017-12-20 20:57:21 4964 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 1962801
+2017-12-20 20:57:21 3872 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2017-12-20 20:57:21 4964 [Note] Plugin 'FEEDBACK' is disabled.
+2017-12-20 20:57:21 4964 [Note] Server socket created on IP: '::'.
+2017-12-20 20:57:21 4964 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2017-12-25 19:02:07 13c8 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2017-12-25 19:02:07 5064 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2017-12-25 19:02:07 5064 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-12-25 19:02:07 5064 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-12-25 19:02:07 5064 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-12-25 19:02:07 5064 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-12-25 19:02:07 5064 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-12-25 19:02:07 5064 [Note] InnoDB: Using generic crc32 instructions
+2017-12-25 19:02:07 5064 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2017-12-25 19:02:07 5064 [Note] InnoDB: Completed initialization of buffer pool
+2017-12-25 19:02:07 5064 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-12-25 19:02:07 5064 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 1977835 in the ib_logfiles!
+2017-12-25 19:02:07 5064 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2017-12-25 19:02:08 5064 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-12-25 19:02:08 5064 [Note] InnoDB: Waiting for purge to start
+2017-12-25 19:02:08 5064 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 1977835
+2017-12-25 19:02:08 5064 [Note] Plugin 'FEEDBACK' is disabled.
+2017-12-25 19:02:08 5196 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2017-12-25 19:02:08 5064 [Note] Server socket created on IP: '::'.
+2017-12-25 19:02:08 5064 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2017-12-25 19:02:49 3436 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-25 19:02:49 3436 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-25 20:42:10 2828 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-25 20:42:10 2828 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-25 21:07:47 4800 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-25 21:07:47 4800 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-02 11:24:53 a2c InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-03-02 11:24:53 2604 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-03-02 11:24:53 2604 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-03-02 11:24:53 2604 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-03-02 11:24:53 2604 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-03-02 11:24:53 2604 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-03-02 11:24:53 2604 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-03-02 11:24:53 2604 [Note] InnoDB: Using generic crc32 instructions
+2018-03-02 11:24:53 2604 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-03-02 11:24:53 2604 [Note] InnoDB: Completed initialization of buffer pool
+2018-03-02 11:24:53 2604 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-03-02 11:24:53 2604 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 2115378 in the ib_logfiles!
+2018-03-02 11:24:53 2604 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-03-02 11:24:54 2604 [ERROR] InnoDB: Table lesson1/addresslist in the InnoDB data dictionary has tablespace id 43, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-02 11:24:54 2604 [ERROR] InnoDB: Table lesson1/fruit_stock in the InnoDB data dictionary has tablespace id 44, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-02 11:24:54 2604 [ERROR] InnoDB: Table sample/goods in the InnoDB data dictionary has tablespace id 49, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-02 11:24:54 2604 [ERROR] InnoDB: Table sample/lesson in the InnoDB data dictionary has tablespace id 48, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-02 11:24:54 2604 [ERROR] InnoDB: Table sample/sales in the InnoDB data dictionary has tablespace id 50, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-02 11:24:54 2604 [ERROR] InnoDB: Table teste/test in the InnoDB data dictionary has tablespace id 41, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-02 11:24:54 2604 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-03-02 11:24:54 2604 [Note] InnoDB: Waiting for purge to start
+2018-03-02 11:24:54 2604 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 2115378
+2018-03-02 11:24:54 6316 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-03-02 11:24:54 2604 [Note] Plugin 'FEEDBACK' is disabled.
+2018-03-02 11:24:54 2604 [Note] Server socket created on IP: '::'.
+2018-03-02 11:24:54 2604 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-03-05 19:05:55 46c InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-03-05 19:05:55 1132 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-03-05 19:05:55 1132 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-03-05 19:05:55 1132 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-03-05 19:05:55 1132 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-03-05 19:05:55 1132 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-03-05 19:05:55 1132 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-03-05 19:05:55 1132 [Note] InnoDB: Using generic crc32 instructions
+2018-03-05 19:05:55 1132 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-03-05 19:05:55 1132 [Note] InnoDB: Completed initialization of buffer pool
+2018-03-05 19:05:55 1132 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-03-05 19:05:55 1132 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 2121397 in the ib_logfiles!
+2018-03-05 19:05:55 1132 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-03-05 19:05:56 1132 [ERROR] InnoDB: Table lesson1/addresslist in the InnoDB data dictionary has tablespace id 43, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-05 19:05:56 1132 [ERROR] InnoDB: Table lesson1/fruit_stock in the InnoDB data dictionary has tablespace id 44, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-05 19:05:56 1132 [ERROR] InnoDB: Table sample/goods in the InnoDB data dictionary has tablespace id 49, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-05 19:05:56 1132 [ERROR] InnoDB: Table sample/lesson in the InnoDB data dictionary has tablespace id 48, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-05 19:05:56 1132 [ERROR] InnoDB: Table sample/sales in the InnoDB data dictionary has tablespace id 50, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-05 19:05:56 1132 [ERROR] InnoDB: Table teste/test in the InnoDB data dictionary has tablespace id 41, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-05 19:05:56 1132 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-03-05 19:05:56 1132 [Note] InnoDB: Waiting for purge to start
+2018-03-05 19:05:56 1132 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 2121397
+2018-03-05 19:05:56 7016 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-03-05 19:05:56 1132 [Note] Plugin 'FEEDBACK' is disabled.
+2018-03-05 19:05:56 1132 [Note] Server socket created on IP: '::'.
+2018-03-05 19:05:56 1132 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-03-05 20:25:57 1364 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-03-05 20:25:57 4964 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-03-05 20:25:57 4964 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-03-05 20:25:57 4964 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-03-05 20:25:57 4964 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-03-05 20:25:57 4964 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-03-05 20:25:57 4964 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-03-05 20:25:57 4964 [Note] InnoDB: Using generic crc32 instructions
+2018-03-05 20:25:57 4964 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-03-05 20:25:57 4964 [Note] InnoDB: Completed initialization of buffer pool
+2018-03-05 20:25:57 4964 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-03-05 20:25:57 4964 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 2126075 in the ib_logfiles!
+2018-03-05 20:25:57 4964 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-03-05 20:25:58 4964 [ERROR] InnoDB: Table lesson1/addresslist in the InnoDB data dictionary has tablespace id 43, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-05 20:25:58 4964 [ERROR] InnoDB: Table lesson1/fruit_stock in the InnoDB data dictionary has tablespace id 44, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-05 20:25:58 4964 [ERROR] InnoDB: Table sample/goods in the InnoDB data dictionary has tablespace id 49, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-05 20:25:58 4964 [ERROR] InnoDB: Table sample/lesson in the InnoDB data dictionary has tablespace id 48, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-05 20:25:58 4964 [ERROR] InnoDB: Table sample/sales in the InnoDB data dictionary has tablespace id 50, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-05 20:25:58 4964 [ERROR] InnoDB: Table teste/test in the InnoDB data dictionary has tablespace id 41, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-05 20:25:58 4964 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-03-05 20:25:58 4964 [Note] InnoDB: Waiting for purge to start
+2018-03-05 20:25:58 4964 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 2126075
+2018-03-05 20:25:58 4964 [Note] Plugin 'FEEDBACK' is disabled.
+2018-03-05 20:25:58 2396 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-03-05 20:25:58 4964 [Note] Server socket created on IP: '::'.
+2018-03-05 20:25:58 4964 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-03-06 13:13:44 b0c InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-03-06 13:13:44 2828 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-03-06 13:13:44 2828 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-03-06 13:13:44 2828 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-03-06 13:13:44 2828 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-03-06 13:13:45 2828 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-03-06 13:13:45 2828 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-03-06 13:13:45 2828 [Note] InnoDB: Using generic crc32 instructions
+2018-03-06 13:13:45 2828 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-03-06 13:13:45 2828 [Note] InnoDB: Completed initialization of buffer pool
+2018-03-06 13:13:45 2828 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-03-06 13:13:45 2828 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 2128000 in the ib_logfiles!
+2018-03-06 13:13:45 2828 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-03-06 13:13:45 2828 [ERROR] InnoDB: Table lesson1/addresslist in the InnoDB data dictionary has tablespace id 43, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-06 13:13:45 2828 [ERROR] InnoDB: Table lesson1/fruit_stock in the InnoDB data dictionary has tablespace id 44, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-06 13:13:45 2828 [ERROR] InnoDB: Table sample/goods in the InnoDB data dictionary has tablespace id 49, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-06 13:13:45 2828 [ERROR] InnoDB: Table sample/lesson in the InnoDB data dictionary has tablespace id 48, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-06 13:13:45 2828 [ERROR] InnoDB: Table sample/sales in the InnoDB data dictionary has tablespace id 50, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-06 13:13:45 2828 [ERROR] InnoDB: Table teste/test in the InnoDB data dictionary has tablespace id 41, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-06 13:13:45 2828 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-03-06 13:13:45 2828 [Note] InnoDB: Waiting for purge to start
+2018-03-06 13:13:46 2828 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 2128000
+2018-03-06 13:13:46 2828 [Note] Plugin 'FEEDBACK' is disabled.
+2018-03-06 13:13:46 4004 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-03-06 13:13:46 2828 [Note] Server socket created on IP: '::'.
+2018-03-06 13:13:46 2828 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-03-07 10:30:47 984 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-03-07 10:30:47 2436 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-03-07 10:30:47 2436 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-03-07 10:30:47 2436 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-03-07 10:30:47 2436 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-03-07 10:30:47 2436 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-03-07 10:30:47 2436 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-03-07 10:30:47 2436 [Note] InnoDB: Using generic crc32 instructions
+2018-03-07 10:30:47 2436 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-03-07 10:30:47 2436 [Note] InnoDB: Completed initialization of buffer pool
+2018-03-07 10:30:47 2436 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-03-07 10:30:47 2436 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 2133836 in the ib_logfiles!
+2018-03-07 10:30:47 2436 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-03-07 10:30:47 2436 [ERROR] InnoDB: Table lesson1/addresslist in the InnoDB data dictionary has tablespace id 43, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-07 10:30:47 2436 [ERROR] InnoDB: Table lesson1/fruit_stock in the InnoDB data dictionary has tablespace id 44, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-07 10:30:48 2436 [ERROR] InnoDB: Table sample/goods in the InnoDB data dictionary has tablespace id 49, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-07 10:30:48 2436 [ERROR] InnoDB: Table sample/lesson in the InnoDB data dictionary has tablespace id 48, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-07 10:30:48 2436 [ERROR] InnoDB: Table sample/sales in the InnoDB data dictionary has tablespace id 50, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-07 10:30:48 2436 [ERROR] InnoDB: Table teste/test in the InnoDB data dictionary has tablespace id 41, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-07 10:30:48 2436 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-03-07 10:30:48 2436 [Note] InnoDB: Waiting for purge to start
+2018-03-07 10:30:48 2436 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 2133836
+2018-03-07 10:30:48 2436 [Note] Plugin 'FEEDBACK' is disabled.
+2018-03-07 10:30:48 4696 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-03-07 10:30:48 2436 [Note] Server socket created on IP: '::'.
+2018-03-07 10:30:48 2436 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-03-07 15:24:51 5636 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-07 15:24:51 5636 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-07 15:25:28 5868 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-07 15:25:28 5868 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-08 11:20:59 1210 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-03-08 11:20:59 4624 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-03-08 11:20:59 4624 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-03-08 11:20:59 4624 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-03-08 11:20:59 4624 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-03-08 11:20:59 4624 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-03-08 11:20:59 4624 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-03-08 11:20:59 4624 [Note] InnoDB: Using generic crc32 instructions
+2018-03-08 11:20:59 4624 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-03-08 11:20:59 4624 [Note] InnoDB: Completed initialization of buffer pool
+2018-03-08 11:21:00 4624 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-03-08 11:21:00 4624 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 2266582 in the ib_logfiles!
+2018-03-08 11:21:00 4624 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-03-08 11:21:00 4624 [ERROR] InnoDB: Table lesson1/addresslist in the InnoDB data dictionary has tablespace id 43, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-08 11:21:00 4624 [ERROR] InnoDB: Table lesson1/fruit_stock in the InnoDB data dictionary has tablespace id 44, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-08 11:21:01 4624 [ERROR] InnoDB: Table sample/goods in the InnoDB data dictionary has tablespace id 49, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-08 11:21:01 4624 [ERROR] InnoDB: Table sample/lesson in the InnoDB data dictionary has tablespace id 48, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-08 11:21:01 4624 [ERROR] InnoDB: Table sample/sales in the InnoDB data dictionary has tablespace id 50, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-08 11:21:01 4624 [ERROR] InnoDB: Table teste/test in the InnoDB data dictionary has tablespace id 41, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-08 11:21:01 4624 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-03-08 11:21:01 4624 [Note] InnoDB: Waiting for purge to start
+2018-03-08 11:21:01 4624 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 2266582
+2018-03-08 11:21:01 4624 [Note] Plugin 'FEEDBACK' is disabled.
+2018-03-08 11:21:01 2176 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-03-08 11:21:01 4624 [Note] Server socket created on IP: '::'.
+2018-03-08 11:21:01 4624 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-03-08 16:05:44 6936 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-08 16:05:44 6936 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-08 16:05:44 6936 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-08 16:05:44 6936 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-08 16:53:47 7936 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-08 16:53:47 7936 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-08 16:53:47 7936 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-03-08 16:53:47 7936 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-03-09 11:05:26 fe4 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-03-09 11:05:26 4068 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-03-09 11:05:27 4068 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-03-09 11:05:27 4068 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-03-09 11:05:27 4068 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-03-09 11:05:27 4068 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-03-09 11:05:27 4068 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-03-09 11:05:27 4068 [Note] InnoDB: Using generic crc32 instructions
+2018-03-09 11:05:27 4068 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-03-09 11:05:27 4068 [Note] InnoDB: Completed initialization of buffer pool
+2018-03-09 11:05:27 4068 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-03-09 11:05:27 4068 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 2409588 in the ib_logfiles!
+2018-03-09 11:05:27 4068 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-03-09 11:05:27 4068 [ERROR] InnoDB: Table lesson1/addresslist in the InnoDB data dictionary has tablespace id 43, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-09 11:05:27 4068 [ERROR] InnoDB: Table lesson1/fruit_stock in the InnoDB data dictionary has tablespace id 44, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-09 11:05:28 4068 [ERROR] InnoDB: Table sample/goods in the InnoDB data dictionary has tablespace id 49, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-09 11:05:28 4068 [ERROR] InnoDB: Table sample/lesson in the InnoDB data dictionary has tablespace id 48, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-09 11:05:28 4068 [ERROR] InnoDB: Table sample/sales in the InnoDB data dictionary has tablespace id 50, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-09 11:05:28 4068 [ERROR] InnoDB: Table teste/test in the InnoDB data dictionary has tablespace id 41, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-09 11:05:28 4068 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-03-09 11:05:28 4068 [Note] InnoDB: Waiting for purge to start
+2018-03-09 11:05:28 4068 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 2409588
+2018-03-09 11:05:28 6164 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-03-09 11:05:28 4068 [Note] Plugin 'FEEDBACK' is disabled.
+2018-03-09 11:05:28 4068 [Note] Server socket created on IP: '::'.
+2018-03-09 11:05:28 4068 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-03-09 18:44:25 1494 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-03-09 18:44:25 5268 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-03-09 18:44:25 5268 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-03-09 18:44:25 5268 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-03-09 18:44:25 5268 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-03-09 18:44:25 5268 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-03-09 18:44:25 5268 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-03-09 18:44:25 5268 [Note] InnoDB: Using generic crc32 instructions
+2018-03-09 18:44:25 5268 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-03-09 18:44:25 5268 [Note] InnoDB: Completed initialization of buffer pool
+2018-03-09 18:44:25 5268 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-03-09 18:44:25 5268 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 2412912 in the ib_logfiles!
+2018-03-09 18:44:25 5268 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-03-09 18:44:25 5268 [ERROR] InnoDB: Table lesson1/addresslist in the InnoDB data dictionary has tablespace id 43, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-09 18:44:25 5268 [ERROR] InnoDB: Table lesson1/fruit_stock in the InnoDB data dictionary has tablespace id 44, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-09 18:44:26 5268 [ERROR] InnoDB: Table sample/goods in the InnoDB data dictionary has tablespace id 49, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-09 18:44:26 5268 [ERROR] InnoDB: Table sample/lesson in the InnoDB data dictionary has tablespace id 48, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-09 18:44:26 5268 [ERROR] InnoDB: Table sample/sales in the InnoDB data dictionary has tablespace id 50, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-09 18:44:26 5268 [ERROR] InnoDB: Table teste/test in the InnoDB data dictionary has tablespace id 41, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-03-09 18:44:26 5268 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-03-09 18:44:26 5268 [Note] InnoDB: Waiting for purge to start
+2018-03-09 18:44:26 5268 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 2412912
+2018-03-09 18:44:26 5268 [Note] Plugin 'FEEDBACK' is disabled.
+2018-03-09 18:44:26 744 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-03-09 18:44:26 5268 [Note] Server socket created on IP: '::'.
+2018-03-09 18:44:26 5268 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
