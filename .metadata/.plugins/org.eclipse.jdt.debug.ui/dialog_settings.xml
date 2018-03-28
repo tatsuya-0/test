@@ -4,6 +4,8 @@
 	<item value="1" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.sortColumn"/>
 	<item value="196" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth1"/>
 	<item value="77" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth0"/>
+	<section name="conditionHistory">
+	</section>
 	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
 		<item value="true" key="ShowStatusLine"/>
 		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=TestDB2/C:\/Users\/internousdev\/Downloads\/mysql-connector-java-5.1.45\/mysql-connector-java-5.1.45\/mysql-connector-java-5.1.45-bin.jar&amp;lt;com.mysql.jdbc(DocsConnectionPropsHelper.class[DocsConnectionPropsHelper&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=TestDB/src&amp;lt;{ChkLoadJdbc.java[ChkLoadJdbc&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;" key="History"/>
@@ -14,5 +16,11 @@
 			<item value="98" key="DIALOG_X_ORIGIN"/>
 			<item value="97" key="DIALOG_Y_ORIGIN"/>
 		</section>
+	</section>
+	<section name="org.eclipse.jdt.internal.debug.ui.ExpressionInformationControlCreator$ExpressionInformationControl">
+		<item value="500" key="SashWeightTree"/>
+		<item value="500" key="SashWeightDetails"/>
+		<item value="1020" key="WIDTH"/>
+		<item value="320" key="HEIGHT"/>
 	</section>
 </section>

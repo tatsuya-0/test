@@ -1,0 +1,54 @@
+package com.internousdev.ecsite.action;
+
+import java.sql.SQLException;
+import java.util.Map;
+
+import org.apache.struts2.interceptor.SessionAware;
+
+import com.internousdev.ecsite.dao.BuyItemCartDAO;
+import com.opensymphony.xwork2.ActionSupport;
+
+public class BuyItemCartAction extends ActionSupport implements SessionAware {
+
+	public Map<String, Object> session;
+	private BuyItemCartDAO buyItemCartDAO = new BuyItemCartDAO();
+	private int id;
+	private String itemName;
+	private String itemPrice;
+
+	public String execute() throws SQLException{
+		String result=SUCCESS;
+		buyItemCartDAO.buyItemCartInfo(
+				session.get("login_user_id").toString(),
+				session.get("id").toString(),
+				session.get("total_price").toString(),
+				session.get("count").toString(),
+				session.get("pay").toString(),
+				session.get("total_point").toString());
+	    return result;
+	}
+
+	public int getId(){
+		return id;
+	}
+	public void setId(int id){
+		this.id=id;
+	}
+	public String getItemName(){
+		return itemName;
+	}
+	public void setItemName(String itemName){
+		this.itemName=itemName;
+	}
+	public String getItemPrice(){
+		return itemPrice;
+	}
+	public void setItemPrice(String itemPrice){
+		this.itemPrice=itemPrice;
+	}
+
+	@Override
+	public void setSession(Map<String, Object> session) {
+		this.session = session;
+	}
+}

@@ -1,0 +1,32 @@
+package com.internousdev.ecsite.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import com.internousdev.ecsite.util.DBConnector;
+
+public class BuyItemCartDAO {
+	private DBConnector dbConnector=new DBConnector();
+	private Connection connection=dbConnector.getConnection();
+	private String sql="INSERT user_buy_cart_transaction(item_transaction_id,item_name,total_price,total_count,total_point,user_master_id,pay)VALUES(?,?,?,?,?,?,?)";
+
+	public void buyItemCartInfo(String item_transaction_id,String item_name,int total_price,int total_count,int total_point,String user_master_id,String pay)throws SQLException{
+		try{
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			preparedStatement.setString(1,item_transaction_id);
+			preparedStatement.setString(2,item_name);
+			preparedStatement.setInt(3,total_price);
+			preparedStatement.setInt(4,total_count);
+			preparedStatement.setInt(5,total_point);
+			preparedStatement.setString(6,user_master_id);
+			preparedStatement.setString(7,pay);
+			preparedStatement.execute();
+		}catch(Exception e){
+			e.printStackTrace();
+		}finally{
+			connection.close();
+			}
+	}
+
+}

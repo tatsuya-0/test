@@ -1,0 +1,13 @@
+package com.internousdev.template.dao;
+
+import java.sql.Connection;
+
+import com.internousdev.template.util.DBConnector;
+
+public class BuyItemCompleteDAO {
+
+	private DBConnector dbConnector =new DBConnector();
+	private Connection connection=dbConnector.getConnection();
+	private DateUtil dateUtil=new DateUtil();
+
+}

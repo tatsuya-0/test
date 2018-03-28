@@ -28,6 +28,9 @@ public class LoginAction extends ActionSupport implements SessionAware {
 				&& this.password.equals(loginDTOList.get(0).getPassword())) {
 			session.put("loginDTOList", loginDTOList);
 			ret = SUCCESS;
+		}else{
+			session.put("loginDTOList",loginDTOList);
+			ret=ERROR;
 		}
 		return ret;
 	}
