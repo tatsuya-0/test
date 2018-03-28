@@ -1,0 +1,4 @@
+127.0.0.1 - - [14/Mar/2018:11:07:10 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [14/Mar/2018:11:07:16 +0900] "GET /WebProj5/ HTTP/1.1" 200 787
+0:0:0:0:0:0:0:1 - - [14/Mar/2018:11:07:18 +0900] "POST /WebProj5/WelcomeAction.action;jsessionid=F81A3B68E866C0BBE3ED1DC47C9E6775 HTTP/1.1" 200 847
+0:0:0:0:0:0:0:1 - - [14/Mar/2018:11:07:20 +0900] "POST /WebProj5/LoginAction.action HTTP/1.1" 200 9494
