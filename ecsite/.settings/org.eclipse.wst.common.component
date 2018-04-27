@@ -2,8 +2,7 @@
     <wb-module deploy-name="ecsite">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/sql"/>
-        <property name="context-root" value="ecsite"/>
         <property name="java-output-path" value="/ecsite/build/classes"/>
+        <property name="context-root" value="ecsite"/>
     </wb-module>
 </project-modules>

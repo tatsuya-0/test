@@ -19,6 +19,7 @@
 
 		<action name="LoginAction" class="com.internousdev.ecsite.action.LoginAction"
 			method="execute">
+			<result name="master">master.jsp</result>
 			<result name="success">buyItem.jsp</result>
 			<result name="error">login.jsp</result>
 		</action>
@@ -47,17 +48,11 @@
 			<result name="error">home.jsp</result>
 		</action>
 
-
-
 		<action name="BuyItemCompleteAction"
 			class="com.internousdev.ecsite.action.BuyItemCompleteAction" method="execute">
 			<result name="success">home.jsp</result>
 		</action>
 
-		<action name="MyPageAction" class="com.internousdev.ecsite.action.MyPageAction"
-			method="execute">
-			<result name="success">myPage.jsp</result>
-		</action>
 
 		<action name="LogoutAction" class="com.internousdev.ecsite.action.LogoutAction"
 			method="execute">
@@ -73,18 +68,50 @@
 			<result name="success">cart.jsp</result>
 			<result name="back">buyItem.jsp</result>
 		</action>
+		<action name="DeleteCartAction" class="com.internousdev.ecsite.action.DeleteCartAction"
+			method="execute">
+			<result name="success">cart.jsp</result>
+			<result name="back">buyItem.jsp</result>
+		</action>
 
 		<action name="CartCompleteAction"
 			class="com.internousdev.ecsite.action.CartCompleteAction" method="execute">
 			<result name="success">buyItemConfirm.jsp</result>
 			<result name="back">buyItem.jsp</result>
 		</action>
-			<action name="BuyItemConfirmAction"
+		<action name="BuyItemConfirmAction"
 			class="com.internousdev.ecsite.action.BuyItemConfirmAction" method="execute">
 			<result name="success">buyItemComplete.jsp</result>
-			<result name="back">buyItem.jsp</result>
 		</action>
 
+		<action name="MyPageAction" class="com.internousdev.ecsite.action.MyPageAction"
+			method="execute">
+			<result name="success">myPage.jsp</result>
+		</action>
+
+		<action name="GoItemAction" class="com.internousdev.ecsite.action.GoItemAction"
+			method="execute ">
+			<result name="success">buyItem.jsp</result>
+		</action>
+
+		<action name="MasterAction" class="com.internousdev.ecsite.action.MasterAction" method="execute">
+			<result name="success">masterConfirm.jsp</result>
+		</action>
+
+		<action name="GoInsertAction" class="com.internousdev.ecsite.action.GoInsertAction" method="execute">
+			<result name="success">itemInsert.jsp</result>
+		</action>
+
+
+		<action name="ItemInsertAction" class="com.internousdev.ecsite.action.ItemInsertAction" method="execute">
+			<result name="success">itemInsertComplete.jsp</result>
+			<result name="error">itemInsert.jsp</result>
+		</action>
+
+
+		<action name="GoItemUpdateAction" class="com.internousdev.ecsite.action.GoItemUpdateAction" method="execute">
+			<result name="success">itemUpdate.jsp</result>
+		</action>
 
 
 	</package>

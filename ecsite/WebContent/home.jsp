@@ -66,18 +66,27 @@ table {
 		<div id="top">
 			<p>Home</p>
 		</div>
-		<div id="text-center">
-			<s:form action="HomeAction">
-				<s:submit value="商品の購入" />
-			</s:form>
-			<s:if test="#session.id!=null">
+		<p class="guest">
+			<s:if test="#session.login_user_id!=null">
+			<p>	ようこそ！<s:property value="#session.login_user_id" />さん</p>
 			<p>
-			<a href='<s:url action="MyPageActio"/>'>マイページ</a></p>
+			<a href='<s:url action="MyPageAction"/>'> マイぺージ</a>
+
 
 
 			<p>ログアウトする場合は
 				<a href='<s:url action="LogoutAction" />'>こちら</a></p>
-			</s:if>
+			</s:if><s:else >
+					<p>ようこそ！ゲストさん</p>
+			<s:form action="HomeAction">
+				<s:submit value="Login" />
+			</s:form>
+			</s:else>
+
+		<div id="text-center">
+			<s:form action="GoItemAction">
+			<s:submit value="商品一覧"/>
+			</s:form>
 		</div>
 	</div>
 	<div id="footer">

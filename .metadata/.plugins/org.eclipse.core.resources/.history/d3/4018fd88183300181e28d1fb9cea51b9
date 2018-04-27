@@ -1,0 +1,80 @@
+package com.internousdev.ecsite.action;
+
+import java.sql.SQLException;
+import java.util.Map;
+
+import org.apache.struts2.interceptor.SessionAware;
+
+import com.internousdev.ecsite.dao.BuyItemCompleteDAO;
+import com.opensymphony.xwork2.ActionSupport;
+
+public class BuyItemConfirmAction extends ActionSupport implements SessionAware {
+
+	public Map<String, Object> session;
+	private BuyItemCompleteDAO buyItemCompleteDAO = new BuyItemCompleteDAO();
+	private String itemName;
+	private int totalPrice;
+	private int totalCount;
+	private int totalpoint;
+	private String payment;
+
+
+	public String execute() throws SQLException {
+		buyItemCompleteDAO.buyItemeInfo(
+				itemName,
+				totalPrice,
+				totalCount,
+				session.get("login_user_id").toString(),
+				payment,
+				totalpoint);
+
+
+
+		String result = SUCCESS;
+		return result;
+	}
+	public String getItemName() {
+		return itemName;
+	}
+
+	public void setItemName(String itemName) {
+		this.itemName = itemName;
+	}
+
+	public int getTotalPrice() {
+		return totalPrice;
+	}
+
+	public void setTotalPrice(int totalPrice) {
+		this.totalPrice = totalPrice;
+	}
+
+	public int getTotalCount() {
+		return totalCount;
+	}
+
+	public void setTotalCount(int totalCount) {
+		this.totalCount = totalCount;
+	}
+
+	public int getTotalpoint() {
+		return totalpoint;
+	}
+
+	public void setTotalpoint(int totalpoint) {
+		this.totalpoint = totalpoint;
+	}
+
+	public String getPayment() {
+		return payment;
+	}
+
+	public void setPayment(String payment) {
+		this.payment = payment;
+	}
+
+	@Override
+	public void setSession(Map<String, Object> session) {
+		this.session = session;
+	}
+}

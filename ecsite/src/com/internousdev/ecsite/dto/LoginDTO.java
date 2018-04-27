@@ -6,6 +6,15 @@ public class LoginDTO {
 	private String loginPassword;
 	private String userName;
 	private boolean loginFlg = false;
+	private boolean loginMaster=false;
+
+	public boolean getLoginMaster() {
+		return loginMaster;
+	}
+
+	public void setLoginMaster(boolean loginMaster) {
+		this.loginMaster = loginMaster;
+	}
 
 	public String getLoginId() {
 		return loginId;

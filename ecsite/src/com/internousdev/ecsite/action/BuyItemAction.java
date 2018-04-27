@@ -1,9 +1,12 @@
 package com.internousdev.ecsite.action;
 
+import java.util.ArrayList;
 import java.util.Map;
 
 import org.apache.struts2.interceptor.SessionAware;
 
+import com.internousdev.ecsite.dao.BuyItemDAO;
+import com.internousdev.ecsite.dto.BuyItemDTO;
 import com.opensymphony.xwork2.ActionSupport;
 
 public class BuyItemAction extends ActionSupport implements SessionAware {
@@ -11,8 +14,12 @@ public class BuyItemAction extends ActionSupport implements SessionAware {
 	public Map<String, Object> session;
 	private int count;
 	private String pay;
+	ArrayList<BuyItemDTO> buyItemDTOList=new  	ArrayList<BuyItemDTO>();
+	BuyItemDAO buyitemDAO=new BuyItemDAO();
+
 
 	public String execute() {
+		buyItemDTOList = buyitemDAO.getBuyItemInfo();
 		String result = ERROR;
 		result = SUCCESS;
 		session.put("count", count);

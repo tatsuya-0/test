@@ -10,3 +10,4 @@ org.eclipse.php.debug.coreinstalledPHPNames=PHP 5.3.1 (CLI)
 org.eclipse.php.debug.coreinstalledPHPUniqueIds=php-exe-cc6fb2af-1318-4a25-8d9e-f82c2643d7ab
 org.eclipse.php.debug.corephp_debugger_id=org.eclipse.php.debug.core.xdebugDebugger
 org.eclipse.php.debug.corephp_versions=null
+org.eclipse.php.debug.coresort_by_name=true

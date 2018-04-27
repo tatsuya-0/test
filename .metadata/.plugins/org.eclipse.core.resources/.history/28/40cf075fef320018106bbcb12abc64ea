@@ -1,0 +1,35 @@
+package com.internousdev.ecsite.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import com.internousdev.ecsite.util.DBConnector;
+import com.internousdev.ecsite.util.DateUtil;
+
+public class BuyItemCompleteDAO {
+	private DBConnector dbConnector = new DBConnector();
+	private Connection connection = dbConnector.getConnection();
+	private DateUtil dateUtil = new DateUtil();
+	private String sql="INSERT INTO user_buy_item_transaction(item_transaction_id,item_name,total_price,total_count,total_point,user_master_id,pay)VALUES(?,?,?,?,?,?,?)";
+
+	public void buyItemeInfo(String item_transaction_id,String item_name,String user_master_id,String total_price,String total_count,String total_point,String pay)throws SQLException{
+		try{
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			preparedStatement.setString(1,item_transaction_id);
+			preparedStatement.setString(2,item_name );
+			preparedStatement.setString(3,total_price);
+			preparedStatement.setString(4,total_count);
+			preparedStatement.setString(5,user_master_id);
+			preparedStatement.setString(6,pay);
+			preparedStatement.setString(7,total_point);
+			preparedStatement.setString(8,dateUtil.getDate());
+			preparedStatement.execute();
+		}catch(Exception e){
+			e.printStackTrace();
+		}finally{
+			connection.close();
+			}
+	}
+
+}

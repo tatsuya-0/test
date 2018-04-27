@@ -1,0 +1,96 @@
+package com.internousdev.ecsite.action;
+
+import java.sql.SQLException;
+import java.util.Map;
+
+import org.apache.struts2.interceptor.SessionAware;
+
+import com.internousdev.ecsite.dao.BuyItemCompleteDAO;
+import com.opensymphony.xwork2.ActionSupport;
+
+public class BuyItemConfirmAction extends ActionSupport implements SessionAware {
+
+	public Map<String, Object> session;
+	private BuyItemCompleteDAO buyItemCompleteDAO = new BuyItemCompleteDAO();
+	private String itemName;
+	private String totalPrice;
+	private String totalCount;
+	private String totalpoint;
+	private String payment;
+
+
+	public String execute() throws SQLException {
+
+		System.out.println(itemName);
+		System.out.println(totalPrice);
+		System.out.println(totalCount);
+		System.out.println(totalpoint);
+		System.out.println(payment);
+
+		String[] itemNameList = itemName.split(", ",0);
+		String[] totalPriceList = totalPrice.split(", ",0);
+		String[] totalCountList = totalCount.split(", ",0);
+		String[] totalPointList = totalpoint.split(", ", 0);
+		String[] paymentList = payment.split(", ",0);
+
+
+		for(int =0; i < itemNameList.length; i++){
+
+		buyItemCompleteDAO.buyItemeInfo(
+				itemName,
+				totalPrice,
+				totalCount,
+				session.get("login_user_id").toString(),
+				payment,
+				totalpoint);
+		}
+
+
+		String result = SUCCESS;
+		return result;
+	}
+	public String getItemName() {
+		return itemName;
+	}
+
+	public void setItemName(String itemName) {
+		this.itemName = itemName;
+	}
+
+	public int getTotalPrice() {
+		return totalPrice;
+	}
+
+	public void setTotalPrice(int totalPrice) {
+		this.totalPrice = totalPrice;
+	}
+
+	public int getTotalCount() {
+		return totalCount;
+	}
+
+	public void setTotalCount(int totalCount) {
+		this.totalCount = totalCount;
+	}
+
+	public int getTotalpoint() {
+		return totalpoint;
+	}
+
+	public void setTotalpoint(int totalpoint) {
+		this.totalpoint = totalpoint;
+	}
+
+	public String getPayment() {
+		return payment;
+	}
+
+	public void setPayment(String payment) {
+		this.payment = payment;
+	}
+
+	@Override
+	public void setSession(Map<String, Object> session) {
+		this.session = session;
+	}
+}

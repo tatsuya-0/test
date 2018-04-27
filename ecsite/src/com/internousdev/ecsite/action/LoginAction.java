@@ -18,23 +18,47 @@ public class LoginAction extends ActionSupport implements SessionAware {
 	private LoginDAO loginDAO = new LoginDAO();
 	private LoginDTO loginDTO = new LoginDTO();
 	private BuyItemDAO buyItemDAO = new BuyItemDAO();
-	private ArrayList<BuyItemDTO> buyitemDTO= new ArrayList<BuyItemDTO>();
+	private ArrayList<BuyItemDTO> buyItemDTOList = new ArrayList<BuyItemDTO>();
 
 	public String execute() {
 		String result = ERROR;
 		loginDTO = loginDAO.getLoginUserInfo(loginUserId, loginPassword);
 		session.put("loginUser", loginDTO);
 
-		if (((LoginDTO) session.get("loginUser")).getLoginFlg()) {
-			result = SUCCESS;
-			buyitemDTO = buyItemDAO.getBuyItemInfo();
-			session.put("login_user_id", loginDTO.getLoginId());
-			session.put("buyitemDTO",buyitemDTO);
-			return result;
+		if (((LoginDTO) session.get("loginUser")).getLoginMaster()) {
+
+			buyItemDTOList = buyItemDAO.getBuyItemInfo();
+
+
+			result = "master";
+		}
+		if (result != "master") {
+
+			if (((LoginDTO) session.get("loginUser")).getLoginFlg()) {
+				result = SUCCESS;
+				session.put("login_user_id", loginDTO.getLoginId());
+				session.get("login_user_id");
+
+			}
+
 		}
 		return result;
 
 	}
+
+
+
+	public ArrayList<BuyItemDTO> getBuyItemDTOList() {
+		return buyItemDTOList;
+	}
+
+
+
+	public void setBuyItemDTOList(ArrayList<BuyItemDTO> buyItemDTOList) {
+		this.buyItemDTOList = buyItemDTOList;
+	}
+
+
 
 	public String getLoginUserId() {
 		return loginUserId;

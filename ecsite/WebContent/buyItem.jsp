@@ -26,9 +26,10 @@ body {
 }
 
 table {
+	clear: both;
 	text-align: center;
 	margin: 20px auto;
-	border: 1px solid black;
+	background-color: #CCFFFF;
 }
 
 #top {
@@ -58,6 +59,7 @@ table {
 </style>
 
 
+
 </head>
 <body>
 	<div id="header">
@@ -70,44 +72,70 @@ table {
 		</div>
 		<div>
 
-			<s:iterator value="session.buyitemDTO">
+			<p>
+				<s:if test="Message !=''">
+					<s:property value="Message" escape="false" />
+				</s:if>
+			</p>
+			<s:iterator value="buyItemDTOList">
 				<s:form action="BuyItemCartAction">
-					<table>
-						<tr>
-							<td><s:property value="getId()" /><input type="hidden"value="<s:property value="getId()" />"name="id"/></td>
+					<div id="table">
+						<table>
 
-							<td><span>商品名</span></td>
-							<td><s:property value="getItemName()" /><input type="hidden"value="<s:property value="getItemName()" />"name="itemName"/><br></td>
-						</tr>
+							<tr>
+								<td><s:property value="id" /><input type="hidden"
+									value="<s:property value="id" />" name="id" /></td>
 
-						<tr>
-							<td><span>値段</span></td>
-							<td><s:property value="getItemPrice()" /><input type="hidden" value="<s:property value="getItemPrice()" />"name="ItemPrice"/> <span>円</span></td>
-						</tr>
-						<tr>
-							<td><span>購入個数</span></td>
-							<td><select name="count">
-									<option value="1" selected="selected">1</option>
-									<option value="2">2</option>
-									<option value="3">3</option>
-									<option value="4">4</option>
-									<option value="5">5</option>
-							</select></td>
-						</tr>
-						<tr>
-							<td><span>支払い方法</span></td>
-							<td><input type="radio" name="pay" value="1"
-								checked="checked">現金払い <input type="radio" name="pay"
-								value="2">クレジットカード</td>
-						</tr>
-						<tr><td>
+								<td><span>商品名:</span> <span><s:property
+											value="itemName" /><input type="hidden"
+										value="<s:property value="itemName" />" name="itemName" /></span></td>
+							</tr>
 
-							<input type="submit" value="カートへ" /></td></tr>
-					</table>
+							<tr>
+								<td><span>値段</span></td>
+								<td><s:property value="itemPrice" /><input type="hidden"
+									value="<s:property value="itemPrice" />" name="itemPrice" /> <span>円</span></td>
+							</tr>
+							<tr>
+								<td><span>購入個数</span></td>
+								<td><select name="count">
+										<option value="1" selected="selected">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+								</select></td>
+							</tr>
+							<tr>
+								<td><span>支払い方法</span></td>
+								<td><input type="radio" name="pay" value="1"
+									checked="checked">現金払い <input type="radio" name="pay"
+									value="2">クレジットカード</td>
+							</tr>
+
+							<tr>
+								<td><s:if test="#session.login_user_id!=null">
+										<s:submit value="カートへ" />
+									</s:if></td>
+							</tr>
+
+
+
+						</table>
+					</div>
 				</s:form>
 			</s:iterator>
-			<p>
-			<a href='<s:url action="CartAction"/>'>カート</a></p>
+			<s:if test="#session.login_user_id!=null">
+				<p>
+					<a href='<s:url action="CartAction"/>'>カート</a>
+				</p>
+				<p>
+					マイページは<a href='<s:url action="MyPageAction"/>'>こちら</a>
+				</p>
+			</s:if>
+			<s:else>ログインは<a href='<s:url action="HomeAction" />'>こちら</a>
+			</s:else>
+
 
 		</div>
 
@@ -122,9 +150,6 @@ table {
 			前画面に戻る場合は<a href='<s:url action="GoHomeAction"/>'>こちら</a>
 		</p>
 
-		<p>
-			マイページは<a href='<s:url action="MyPageAction"/>'>こちら</a>
-		</p>
 	</div>
 
 	<div id="footer">

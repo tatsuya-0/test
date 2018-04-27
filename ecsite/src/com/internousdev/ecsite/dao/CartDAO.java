@@ -18,7 +18,7 @@ public class CartDAO {
 
 	public ArrayList<MyPageDTO> getCartUserInfo( String user_master_id) throws SQLException {
 		ArrayList<MyPageDTO> myPageDTO = new ArrayList<MyPageDTO>();
-		String sql = "SELECT id,item_name,total_price,total_count,total_point,pay FROM user_buy_cart_transaction   WHERE user_master_id  = ? ";
+		String sql = "SELECT id,item_transaction_id,item_name,total_price,total_count,total_point,pay FROM user_buy_cart_transaction   WHERE user_master_id  = ? ";
 
 		try {
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
@@ -28,10 +28,11 @@ public class CartDAO {
 
 			while (resultSet.next()) {
 				MyPageDTO dto = new MyPageDTO();
-				dto.setId(resultSet.getString("id"));
+				dto.setId(resultSet.getInt("id"));
+				dto.setItemId(resultSet.getInt("item_transaction_id"));
 				dto.setItemName(resultSet.getString("item_name"));
-				dto.setTotalPrice(resultSet.getString("total_price"));
-				dto.setTotalCount(resultSet.getString("total_count"));
+				dto.setTotalPrice(resultSet.getInt("total_price"));
+				dto.setTotalCount(resultSet.getInt("total_count"));
 				dto.setPayment(resultSet.getString("pay"));
 				dto.setTotalpoint(resultSet.getInt("total_point"));
 				myPageDTO.add(dto);
@@ -44,13 +45,13 @@ public class CartDAO {
 		return myPageDTO;
 	}
 
-	public int buyItemHistoryDelete( String id) throws SQLException {
+	public int buyItemHistoryDelete( int check) throws SQLException {
 		String sql = "DELETE FROM user_buy_cart_transaction WHERE id=?";
 		PreparedStatement preparedStatement;
 		int result = 0;
 		try {
 			preparedStatement = connection.prepareStatement(sql);
-			preparedStatement.setString(1, id);
+			preparedStatement.setInt(1,check);
 			result = preparedStatement.executeUpdate();
 		} catch (SQLException e) {
 			e.printStackTrace();

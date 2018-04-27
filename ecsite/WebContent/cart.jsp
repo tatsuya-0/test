@@ -60,6 +60,12 @@ table {
 	text-align: center;
 }
 </style>
+<script type="text/Javascript">
+	function submitAction(url) {
+		$('form').attr('action', url);
+		$('form').submit();
+	}
+	</script>
 </head>
 <body>
 	<diV id="header">
@@ -83,12 +89,13 @@ table {
 					<th>ポイント</th>
 					<th>支払い方法</th>
 				</tr>
-					<form action="CartAction">
+				<s:form action="CartAction">
 
-				<s:iterator value="CartList">
+					<s:iterator value="CartList" status="st" >
 
 						<tr>
-							<td><input type="checkbox" value="id">
+							<td><s:checkbox name="checklist"  value="0" fieldValue="%{id}"/>
+
 							<td><s:property value="itemName" /></td>
 							<td><s:property value="totalPrice" /><span>円</span></td>
 							<td><s:property value="totalCount" /><span>個</span></td>
@@ -100,22 +107,20 @@ table {
 								</s:elseif></td>
 						</tr>
 
-						<input type="hidden" value="<s:property value="id"/>" name="id" />
-						<input type="hidden" value="<s:property value="itemName"/>"
-							name="itemName" /> <input type="hidden"
-							value="<s:property value="totalPrice"/>" name="totalPrice" /> <input
-							type="hidden" value="<s:property value="totalCount"/>"
-							name="totalCount" /> <input type="hidden"
-							value="<s:property value="totalpoint" />" name="totalpoint" /> <input
-							type="hidden" value="<s:property value="payment" />"
-							name="payment" />
-							</s:iterator>
-				<tr>
-					<td><input type="hidden" name="deleteFlg" value="id">
-						<s:submit value="削除" method="delete" /></td>
-				</tr>
+
+					</s:iterator>
+
+					<tr>
+						<td><s:submit value="削除"/>
+							</td>
+					</tr>
+			</s:form>
+		<s:form action="CartCompleteAction">
+			<tr>
+				<td><s:submit value="購入確認"  /></td>
+			</tr>
+		</s:form>
 			</table>
-			</form>
 		</s:elseif>
 
 		<s:if test="message!=null">
@@ -123,18 +128,18 @@ table {
 				<s:property value="message" />
 			</h3>
 		</s:if>
-		<form action="CartCompleteAction">
 
-			<td><s:submit value="購入確認" /></td>
-		</form>
 
 
 		<div id="text-right">
 			<p>
-				商品画面へ戻る場合は<a href='<s:url action="BuyItemAction"/>'>こちら</a>
+				商品画面へ戻る場合は<a href='<s:url action="GoItemAction"/>'>こちら</a>
 			</p>
 			<p>
 				ログアウトする場合は<a href='<s:url action="LogoutAction"/>'>こちら</a>
+			</p>
+			<p>
+			<a href='<s:url action="MyPageAction"/>'> マイぺージ</a>
 			</p>
 		</div>
 	</div>

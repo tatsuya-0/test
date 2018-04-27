@@ -43,7 +43,7 @@ table {
 
 #main {
 	width: 100%;
-	height: 500px;
+	height: 500px auto;
 	text-align: center;
 }
 
@@ -98,6 +98,14 @@ table {
 								<p>クレジット</p>
 							</s:elseif></td>
 					</tr>
+
+						<input type="hidden" value="<s:property value="itemName"/>"name="itemName" />
+							<input type="hidden"value="<s:property value="totalPrice"/>" name="totalPrice" />
+							 <input type="hidden" value="<s:property value="totalCount"/>"name="totalCount" />
+							 <input type="hidden"value="<s:property value="totalpoint" />" name="totalpoint" />
+							  <input type="hidden" value="<s:property value="payment" />"name="payment" />
+							  <input type="hidden" name="deleteFlg" value="1">
+
 				</s:iterator>
 				<tr>
 
@@ -109,7 +117,7 @@ table {
 						onclick="submitAction('HomeAction')" /></td>
 					<td><input type="button" value="購入"
 						onclick="submitAction('BuyItemConfirmAction')" /></td>
-				</tr>
+
 			</s:form>
 		</div>
 	</div>
